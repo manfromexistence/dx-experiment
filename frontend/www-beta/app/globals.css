@@ -345,3 +345,18 @@
   /* --color-background: red; */
 
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border,.border-t,.border-b,.border-l,.border-l,.border-r{
+  border-color: hsl(var(--border));
+}
