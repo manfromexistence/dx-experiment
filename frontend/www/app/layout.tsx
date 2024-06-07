@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="flex-center bg-background min-h-[100vh] w-full">
         {children}
       </body>
     </html>
